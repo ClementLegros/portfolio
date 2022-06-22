@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
       animate="enter"
       exit="exit"
       variants={variants}
-      transition={{ duration: 0.4, type: "easeInOut" }}
+      transition={{ duration: 1.1, type: "easeInOut" }}
     >
       {children}
     </motion.div>

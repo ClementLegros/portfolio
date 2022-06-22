@@ -31,15 +31,15 @@ const HomePage = () => {
           </div>
           <div className="flex flex-row text-justify text-white mb-2">
             <p>
-              Je suis un jeune développeur de {CalculAge()}ans qui à toujours
-              été passioné d'informatique depuis mon enfance. J'ai fais la
-              connaisance du développement web lors de mon BTS et j'en ai décidé
-              de faire ma vocation. Depuis je touche à tout ce qui est
+              Je suis un jeune développeur de {CalculAge()}ans qui a toujours
+              été passionné d'informatique depuis mon enfance. J'ai fait la
+              connaissance du développement web lors de mon BTS et j'en ai
+              décidé de faire ma vocation. Depuis je touche-à-tout ce qui est
               javascript et ses librairies.
             </p>
           </div>
           <div className="flex flex-row justify-center">
-            <Link to="/work">
+            <Link to="/works">
               <button className="text-white bg-cyan-500 hover:bg-cyan-600 h-10 w-36 rounded shadow">
                 Voir mes travaux
               </button>

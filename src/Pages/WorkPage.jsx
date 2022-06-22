@@ -23,7 +23,23 @@ const WorkPage = () => {
       },
       {
         name: "shinomasuyoo",
-        descrption: "Site web de traduction de carte d'un jeux mobile",
+        description: "Site web de traduction de carte d'un jeux mobile",
+        image: "../dogo-viewer.png",
+        linkWebsite: "https://shinomasuyo-senran.web.app/",
+        linkGithub: "https://github.com/ClementLegros/shinomasuyooo",
+      },
+      {
+        name: "test",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique vitae nulla tempor or",
+        image: "../dogo-viewer.png",
+        linkWebsite: "https://dogoviewer.web.app/",
+        linkGithub: "https://github.com/ClementLegros/doggo-viewer",
+      },
+      {
+        name: "test",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed faucibus libero, non laoreet turpis. Sed pretium feugiat risus eu faucibus",
         image: "../dogo-viewer.png",
         linkWebsite: "https://shinomasuyo-senran.web.app/",
         linkGithub: "https://github.com/ClementLegros/shinomasuyooo",
@@ -37,7 +53,10 @@ const WorkPage = () => {
       <Navbar />
       <Layout>
         <CenterContainer>
-          <div className="md:grid md:grid-cols-3 md:gap-3 w-full md:px-48">
+          <div className="flex flex-row mb-4">
+            <p className="text-lg font-semibold text-white">Travaux</p>
+          </div>
+          <div className="md:grid md:grid-cols-2 md:gap-3 w-full">
             {works.map((work, index) => (
               <Work
                 key={work.name}
