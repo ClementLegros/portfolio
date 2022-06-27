@@ -5,9 +5,8 @@ Navbar originaly came from: https://tailwindui.com/components/application-ui/nav
 */
 
 import { Link } from "react-router-dom";
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Disclosure } from "@headlessui/react";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const navigation = [
   { name: "Accueil", href: "/", current: true },
@@ -55,6 +54,7 @@ export default function Navbar() {
                       className="block lg:hidden h-16 w-auto"
                       src="../hecker.gif"
                       alt="Workflow"
+                      onClick={() => changeCurrent("Accueil")}
                     />
                   </Link>
                   <Link to="/">
@@ -62,6 +62,7 @@ export default function Navbar() {
                       className="hidden lg:block h-8 w-auto"
                       src="../hecker.gif"
                       alt="Workflow"
+                      onClick={() => changeCurrent("Accueil")}
                     />
                   </Link>
                 </div>

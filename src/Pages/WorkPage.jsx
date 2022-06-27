@@ -29,21 +29,14 @@ const WorkPage = () => {
         linkGithub: "https://github.com/ClementLegros/shinomasuyooo",
       },
       {
-        name: "test",
+        name: "test faux lien",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique vitae nulla tempor or",
         image: "../dogo-viewer.png",
         linkWebsite: "https://dogoviewer.web.app/",
         linkGithub: "https://github.com/ClementLegros/doggo-viewer",
       },
-      {
-        name: "test",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed faucibus libero, non laoreet turpis. Sed pretium feugiat risus eu faucibus",
-        image: "../dogo-viewer.png",
-        linkWebsite: "https://shinomasuyo-senran.web.app/",
-        linkGithub: "https://github.com/ClementLegros/shinomasuyooo",
-      },
+      
     ];
     setWorks(worklist);
   }, []);
