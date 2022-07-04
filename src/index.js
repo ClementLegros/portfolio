@@ -11,6 +11,7 @@ import DoggoViewer from "./Pages/Works/doggo-viewer";
 import Shinomasuyoo from "./Pages/Works/shinomasuyoo";
 import KnowledgePage from "./Pages/KnowledgePage";
 import ContactPage from "./Pages/ContactPage";
+import WhatDoYouHaveToDo from "./Pages/Works/WhatDoYouHaveToDo";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -27,6 +28,7 @@ root.render(
         */}
         <Route path="/works/doggo-viewer" element={<DoggoViewer />} />
         <Route path="/works/shinomasuyoo" element={<Shinomasuyoo />} />
+        <Route path="/works/WhatDoYouHaveToDo" element={<WhatDoYouHaveToDo />} />
       </Routes>
     </AnimatePresence>
   </BrowserRouter>

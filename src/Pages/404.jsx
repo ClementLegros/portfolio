@@ -14,6 +14,7 @@ const NotFound = () => {
             <img
               className="mb-5"
               src="https://c.tenor.com/T_CaDwUNsjMAAAAC/floppa-exfloppa.gif"
+              alt="Erreur 404"
             />
             <p className="text-center text-white font-semibold text-2xl mb-5">
               Vous n'êtes pas censé être ici :{"("}
