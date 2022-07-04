@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Button from "../Components/Button";
 import CenterContainer from "../Components/CenterContainer";
 import Layout from "../Components/Layout";
 import MainContainer from "../Components/MainContainer";
@@ -26,7 +25,9 @@ const HomePage = () => {
             </p>
           </div>
           <div className="flex flex-row mb-2">
-            <p className="text-2xl font-semibold text-white">A propos de moi:</p>
+            <p className="text-2xl font-semibold text-white">
+              A propos de moi:
+            </p>
             <br />
           </div>
           <div className="flex flex-row text-justify text-white mb-3">
@@ -44,21 +45,6 @@ const HomePage = () => {
                 Voir mes travaux
               </button>
             </Link>
-          </div>
-          <div className="flex flex-row">
-            <p className="text-2xl font-semibold text-white mb-2">Bio</p>
-          </div>
-          <div className="flex flex-row text-white mb-1">
-            <p className="font-semibold text-lg mr-3">2001</p> Née à la Test De Buch
-          </div>
-          <div className="flex flex-row text-white mb-1">
-            <p className="font-semibold text-lg mr-3">2019</p> Obtention Bac Pro SN RISC
-          </div>
-          <div className="flex flex-row text-white mb-1">
-            <p className="font-semibold text-lg mr-3">2021</p> Obtention BTS SIO SLAM
-          </div>
-          <div className="flex flex-row text-white mb-1">
-            <p className="font-semibold text-lg mr-3">2022</p> Obtention Licence PRISM
           </div>
         </CenterContainer>
       </Layout>

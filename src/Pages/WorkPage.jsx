@@ -14,6 +14,13 @@ const WorkPage = () => {
         */
     const worklist = [
       {
+        name: "WhatDoYouHaveToDo?",
+        description: "Aplication de gestion de tâches",
+        image: "../wdyhtd.png",
+        linkWebsite: "https://whatdoyouhavetodo.herokuapp.com/",
+        linkGithub: "https://github.com/ClementLegros/wdyhtd-front",
+      },
+      {
         name: "doggo-viewer",
         description:
           "Site web permettant de générer d'afficher des images de chien avec un click",
@@ -24,7 +31,7 @@ const WorkPage = () => {
       {
         name: "shinomasuyoo",
         description: "Site web de traduction de carte d'un jeux mobile",
-        image: "../dogo-viewer.png",
+        image: "../shinomasuyoo.png",
         linkWebsite: "https://shinomasuyo-senran.web.app/",
         linkGithub: "https://github.com/ClementLegros/shinomasuyooo",
       },
@@ -36,7 +43,6 @@ const WorkPage = () => {
         linkWebsite: "https://dogoviewer.web.app/",
         linkGithub: "https://github.com/ClementLegros/doggo-viewer",
       },
-      
     ];
     setWorks(worklist);
   }, []);
